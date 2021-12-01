@@ -1,13 +1,9 @@
 {
-  "name": "browserslist-sandbox",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/yaakaito/browserslist-sandbox",
-  "author": "KAZUMA Ukyo <yaakaito@gmail.com>",
-  "license": "MIT",
+  "private": true,
   "browserslist": [
-    ">0.2%, not dead",
-    "IE 11",
+    "> 0.2%, not dead",
+    "chrome 54",
+    "not IE 11",
     "Safari > 11, iOS > 11"
   ],
   "devDependencies": {
@@ -16,6 +12,7 @@
     "@babel/preset-env": "^7.16.4",
     "babel-loader": "^8.2.3",
     "browserslist": "^4.18.1",
+    "esbuild": "^0.14.1",
     "webpack": "^5.64.4",
     "webpack-cli": "^4.9.1"
   }
